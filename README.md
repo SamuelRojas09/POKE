@@ -1,6 +1,6 @@
 # POKE
- ``` Mermaid
- classDiagram
+``` Mermaid
+   classDiagram
 
       class Pokemon {
          +name: str
@@ -18,3 +18,4 @@
          +defend(): void
          +evolve(): void
       }
+```
