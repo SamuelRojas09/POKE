@@ -1,4 +1,6 @@
 # POKE
+
+```mermaid
 classDiagram
     direction TB
 
@@ -18,3 +20,4 @@ classDiagram
         +defend(): void
         +evolve(): void
     }
+```
