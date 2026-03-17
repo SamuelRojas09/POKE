@@ -1,4 +1,5 @@
 # POKE
+ ``` Mermaid
  classDiagram
 
       class Pokemon {
