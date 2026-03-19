@@ -74,11 +74,11 @@ Acción que permite al pokemon reducir el daño recibido durante un ataque, util
 ***Parámetros***:
 daño_recibido: Cantidad de daño que el pokemon recibe antes de aplicar la defensa.
 
--***Evolucionar()***:(nuevo_nivel, nueva_habilidad)
-Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.
-***Parámetros***:
-nuevo_nivel: Nivel al que evolucionará el pokemon.
-nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.
+-***Evolucionar()***:(nuevo_nivel, nueva_habilidad)  
+Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.  
+***Parámetros***:  
+nuevo_nivel: Nivel al que evolucionará el pokemon.  
+nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
 
 ---
 
