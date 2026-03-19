@@ -98,8 +98,8 @@ Proponemos la siguiente clase *Pokemon* que afianza la interpretación de un Pok
 de forma que una sintaxis correcta seria: 
 
 ```bash
-- CONSTRUCTOR(vida, ataque, defensa ,nivel, tipo , aspecto, habilidad especial):
-   asignación atributos con parametros
+- CONSTRUCTOR(health_points: int, base_strength: float, defense_capacity: float,
+            level: int, type: str, appearance: str, special_ability: str)
 ```
 
 --- 
