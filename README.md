@@ -65,7 +65,6 @@ Finalmente, aunque muchas características sean bienvenidas, se consideran cómo
 Por otro lado, a partir de estás características, el pokemon se comportará en un ambiente de combate con acciones que todos los objetos poseen:  
 - ***Attack(target: Pokemon, attack_power: float): void***  
 Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.  
-
 ***Parametros***:  
 -target (Pokemon): Pokemon que recibirá el ataque.  
 -attack_power (float): Cantidad de daño que se aplicará al objetivo.  
