@@ -63,25 +63,23 @@ A partir de lo descrito, Basándonos en la franquicia y videojuegos de pokemon, 
 Finalmente, aunque muchas características sean bienvenidas, se consideran cómo las fundamentales y generales para la relación de un pokemon en el mundo virtual.
 
 Por otro lado, a partir de estás características, el pokemon se comportará en un ambiente de combate con acciones que todos los objetos poseen:  
+- ***Attack(target: Pokemon, attack_power: float): void***  
+Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.
 
-***Evolucionar(nuevo_nivel: int, nueva_habilidad: str): void***
+***Parametros***:
+-target (Pokemon): Pokemon que recibirá el ataque.
+-attack_power (float): Cantidad de daño que se aplicará al objetivo.
+  
+- ***Defend(damage_received: float): void***
+Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.
+***Parámetros***:
+damage_received (float):  Cantidad de daño que el pokemon recibe antes de aplicar la defensa.  
 
-- ***Atacar(objetivo: Pokemon, poder_ataque: float): void***   
-Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.  
-***Parámetros***:    
--objetivo: Pokemon que recibirá el ataque.  
--poder_ataque: Cantidad de daño que se aplicará al objetivo.  
-
-- ***Defender(daño_recibido: float): void***
-Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.  
-***Parámetros***:  
--daño_recibido: Cantidad de daño que el pokemon recibe antes de aplicar la defensa.  
-
-- ***Evolucionar(nuevo_nivel: int, nueva_habilidad: str): void*** 
+-***Evolve(new_level: int, new_ability: str): void***
 Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.  
-***Parámetros***:  
--nuevo_nivel: Nivel al que evolucionará el pokemon.  
--nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
+***Parámetros***:
+-new_level (int): Nivel al que evolucionará el pokemon. 
+-new_ability (str): Nueva habilidad que puede adquirir al evolucionar. 
 
 ---
 
