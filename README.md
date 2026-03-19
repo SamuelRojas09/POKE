@@ -78,8 +78,8 @@ Acción que permite al pokemon reducir el daño recibido durante un ataque, util
 - ***Evolucionar(nuevo_nivel, nueva_habilidad)***:  
 Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.  
 ***Parámetros***:  
-- nuevo_nivel: Nivel al que evolucionará el pokemon.  
-- nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
+# nuevo_nivel: Nivel al que evolucionará el pokemon.  
+# nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
 
 ---
 
