@@ -121,7 +121,7 @@ classDiagram
         -attacks: list
         -evolution_stage: int
 
-        +Pokemon(health_points: int, base_strength: float, defense_capacity: float, level: int, type: str, appearance: str, special_ability: str) <<create>>
+        +Pokemon(health_points: int, base_strength: float, defense_capacity: float, level: int, type: str, appearance: str, special_ability: str) 
 
         +attack(target: Pokemon, attack_power: float): void
         +defend(damage_received: float): void
