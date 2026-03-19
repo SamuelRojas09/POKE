@@ -63,6 +63,7 @@ A partir de lo descrito, Basándonos en la franquicia y videojuegos de pokemon, 
 Finalmente, aunque muchas características sean bienvenidas, se consideran cómo las fundamentales y generales para la relación de un pokemon en el mundo virtual.
 
 Por otro lado, a partir de estás características, el pokemon se comportará en un ambiente de combate con acciones que todos los objetos poseen:  
+
 -***Atacar(objetivo, poder_ataque)****:   
 Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.  
 ***Parámetros***:    
