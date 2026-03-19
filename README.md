@@ -107,19 +107,23 @@ de forma que una sintaxis correcta seria:
 ## Diagrama UML
 ```mermaid
 classDiagram
-    class Pokemon {
-        +name: str
-        +type: str
-        +health_points: int
-        +base_strength: float
-        +level: int
-        +defense_capacity: float
-        +appearance: str
-        +special_ability: str
-        +attacks: list
-        +evolution_stage: int
+    direction TB
 
-        +attack(target: Pokemon, power_attack: float): void
+    class Pokemon {
+        -name: str
+        -type: str
+        -health_points: int
+        -base_strength: float
+        -level: int
+        -defense_capacity: float
+        -appearance: str
+        -special_ability: str
+        -attacks: list
+        -evolution_stage: int
+
+        +Pokemon(health_points: int, base_strength: float, defense_capacity: float, level: int, type: str, appearance: str, special_ability: str) <<create>>
+
+        +attack(target: Pokemon, attack_power: float): void
         +defend(damage_received: float): void
         +evolve(new_level: int, new_ability: str): void
     }
