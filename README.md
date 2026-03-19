@@ -87,13 +87,13 @@ Proponemos la siguiente clase *Pokemon* que afianza la interpretación de un Pok
 
 #### constructor de clase pokemon
  Parametros  de entrada:
- - Vida: default = 10 
- - ataque : default = 1
- - defensea : default = 0.5
- - Nivel: default = 1
- - tipo: variable, asignable por el entorno
- - aspecto: variable, asignable por el retorno
- - habilidd especial : variable, default = ninguno
+ - health_points (int): default = 10 
+ - base_strength (float): default = 1
+ - defense_capacity (float): default = 0.5
+ - level (int): default = 1
+ - type (str): variable, asignable por el entorno
+ - appearance (str): variable, asignable por el retorno
+ - special_ability (str): variable, default = ninguno
 
 de forma que una sintaxis correcta seria: 
 
