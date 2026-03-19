@@ -67,19 +67,19 @@ Por otro lado, a partir de estás características, el pokemon se comportará en
 - ***Atacar(objetivo, poder_ataque)***:   
 Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.  
 ***Parámetros***:    
-- objetivo: Pokemon que recibirá el ataque.  
-- poder_ataque: Cantidad de daño que se aplicará al objetivo.  
+-objetivo: Pokemon que recibirá el ataque.  
+-poder_ataque: Cantidad de daño que se aplicará al objetivo.  
 
 - ***Defender(daño_recibido)***:  
 Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.  
 ***Parámetros***:  
-- daño_recibido: Cantidad de daño que el pokemon recibe antes de aplicar la defensa.  
+-daño_recibido: Cantidad de daño que el pokemon recibe antes de aplicar la defensa.  
 
 - ***Evolucionar(nuevo_nivel, nueva_habilidad)***:  
 Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.  
 ***Parámetros***:  
-nuevo_nivel: Nivel al que evolucionará el pokemon.
-nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
+-nuevo_nivel: Nivel al que evolucionará el pokemon.
+-nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.  
 
 ---
 
