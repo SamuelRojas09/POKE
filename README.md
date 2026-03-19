@@ -108,8 +108,6 @@ de forma que una sintaxis correcta seria:
 ## Diagrama UML
 ```mermaid
 classDiagram
-    direction TB
-
     class Pokemon {
         +name: str
         +type: str
@@ -122,9 +120,9 @@ classDiagram
         +attacks: list
         +evolution_stage: int
 
-        +attack(target: Pokemon): void
-        +defend(): void
-        +evolve(): void
+        +attack(target: Pokemon, power_attack: float): void
+        +defend(damage_received: float): void
+        +evolve(new_level: int, new_ability: str): void
     }
 ```
 Se utiliza los tres metodos principales de ataque, defensa y evolucionar, con sus respectivos atributos para controlar el comportamiento del pokemon en el entorno de combate, además de los atributos generales que caracterizan a cada pokemon.
