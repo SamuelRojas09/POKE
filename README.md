@@ -64,22 +64,22 @@ Finalmente, aunque muchas características sean bienvenidas, se consideran cómo
 
 Por otro lado, a partir de estás características, el pokemon se comportará en un ambiente de combate con acciones que todos los objetos poseen:  
 - ***Attack(target: Pokemon, attack_power: float): void***  
-Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.
+Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.  
 
-***Parametros***:
--target (Pokemon): Pokemon que recibirá el ataque.
--attack_power (float): Cantidad de daño que se aplicará al objetivo.
+***Parametros***:  
+-target (Pokemon): Pokemon que recibirá el ataque.  
+-attack_power (float): Cantidad de daño que se aplicará al objetivo.  
   
-- ***Defend(damage_received: float): void***
-Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.
-***Parámetros***:
+- ***Defend(damage_received: float): void***  
+Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.  
+***Parámetros***:  
 damage_received (float):  Cantidad de daño que el pokemon recibe antes de aplicar la defensa.  
 
--***Evolve(new_level: int, new_ability: str): void***
+- ***Evolve(new_level: int, new_ability: str): void***  
 Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.  
-***Parámetros***:
--new_level (int): Nivel al que evolucionará el pokemon. 
--new_ability (str): Nueva habilidad que puede adquirir al evolucionar. 
+***Parámetros***:  
+-new_level (int): Nivel al que evolucionará el pokemon.  
+-new_ability (str): Nueva habilidad que puede adquirir al evolucionar.  
 
 ---
 
