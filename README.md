@@ -63,10 +63,22 @@ A partir de lo descrito, Basándonos en la franquicia y videojuegos de pokemon, 
 Finalmente, aunque muchas características sean bienvenidas, se consideran cómo las fundamentales y generales para la relación de un pokemon en el mundo virtual.
 
 Por otro lado, a partir de estás características, el pokemon se comportará en un ambiente de combate con acciones que todos los objetos poseen:
+-***Atacar()****:(objetivo, poder_ataque)
+Acción fundamental para la interacción entre objetos. Permite que un pokemon ataque a otro, reduciendo sus puntos de vida.
+***Parámetros***:
+-objetivo: Pokemon que recibirá el ataque.
+-poder_ataque: Cantidad de daño que se aplicará al objetivo.
 
-- ***Atacar()***: Acción fundamental para la interacción entre objetos, afecta principalmente el atributo de *Puntos de vida*.
-- ***Defender()*** : Capacidad que contraresta parcialmente un ataque, cuál podrá recurrir en su turno de juego.
-- ***Evolucionar()*** : Acción modificadora de las estadísticas que afectan el desempeño del pokemon, abre la puerta a la interacción entre el pokemon y su propietario o entrenador, quien será el que manipule al pokemon, según el contexto.
+-***Defender()***:(daño_recibido)
+Acción que permite al pokemon reducir el daño recibido durante un ataque, utilizando su capacidad de defensa.
+***Parámetros***:
+daño_recibido: Cantidad de daño que el pokemon recibe antes de aplicar la defensa.
+
+-***Evolucionar()***:(nuevo_nivel, nueva_habilidad)
+Acción que permite al pokemon aumentar su nivel y mejorar sus estadísticas, pudiendo también adquirir una nueva habilidad especial.
+***Parámetros***:
+nuevo_nivel: Nivel al que evolucionará el pokemon.
+nueva_habilidad: Nueva habilidad que puede adquirir al evolucionar.
 
 ---
 
